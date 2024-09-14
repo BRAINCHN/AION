@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Make the .desktop file executable
-chmod +x Kuntai.desktop
+chmod +x AION.desktop
 
 # Optionally move the .desktop file to the desktop for easy access
-# cp Kuntai.desktop ~/Desktop
+# cp AION.desktop ~/Desktop
+# set the image to the image location
 
-echo "Kuntai is ready for your Desktop. Are you ready for Kuntai?"
+echo "AIONLinux"
