@@ -14,6 +14,7 @@ updates system creates venv installs ollama and huggingface dependenices downloa
 alt test of vllm build using (untested)
 
 ```bash
+sudo apt install -y curl python3 python3-pip python3-venv build-essential libopenblas-dev libssl-dev
 chmod +x AION.sh
 sudo ./AION.sh
 ```
