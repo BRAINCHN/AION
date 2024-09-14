@@ -4,7 +4,7 @@
 # Update and install required system dependencies
 echo "Updating system and installing dependencies..."
 sudo apt update
-sudo apt install -y curl git git-lfs python3 python3-pip python3-venv build-essential libopenblas-dev libssl-dev
+sudo apt install -y curl git git-lfs python3 python3-pip python3-venv build-essential libopenblas-dev libssl-dev vLLM
 
 # Install Git LFS
 echo "Installing Git LFS..."
@@ -21,6 +21,7 @@ source kuntai/bin/activate
 # Install Hugging Face and other Python dependencies in the virtual environment
 echo "Installing Python dependencies in the virtual environment..."
 pip install torch transformers sentencepiece huggingface_hub
+# pip install vllm
 
 # Check if Ollama is installed
 if ! command -v ollama &> /dev/null
