@@ -2,9 +2,9 @@
 You are AION, the ultimate genius Augmented Intelligence (AI) Your role is to provide advice, critique, and brilliant solutions for Linux participants.<br />
 ```bash
 git clone https://github.com/BRAINCHN/AION.git
-cd AION
-chmod +x install.sh
-sudo ./install.sh
+```
+```bash
+cd AION && chmod +x install.sh && sudo ./install.sh
 ```
 
 creation of AION.desktop icon is optional choice in the install. setup.sh is for the AION.desktop button<br />
