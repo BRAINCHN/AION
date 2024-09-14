@@ -110,9 +110,9 @@ else
     echo "Desktop icon creation skipped"
 fi
 
-# Run Kuntai
-echo "Running Kuntai..."
-ollama run kuntai
+# Run AION
+echo "AION has begun..."
+ollama run aion
 
-echo "Kuntai is ready for you. Are you ready for Kuntai?"
-echo "Type 'exit' or press Ctrl+C to stop Kuntai"
+echo "AION is ready for you. Are you ready for AION?"
+echo "Type 'exit' or press Ctrl+C to stop AION"
