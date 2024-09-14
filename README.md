@@ -16,4 +16,4 @@ sudo ./AION.sh
 ```
 
 
-![Architecture Diagram](./AIONwithTUX.jpg)<br />
+![Architecture Diagram](./AIONwithTUX.png)<br />
