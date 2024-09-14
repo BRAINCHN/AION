@@ -14,3 +14,6 @@ alt test of vllm build using (untested)
 chmod +x AION.sh
 sudo ./AION.sh
 ```
+
+
+![Architecture Diagram](./AIONwithTUX.jpg)<br />
